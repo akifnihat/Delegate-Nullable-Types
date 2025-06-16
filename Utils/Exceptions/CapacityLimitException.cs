@@ -1,16 +1,9 @@
 ﻿
 namespace Utils.Exceptions
 {
-    internal class CapacityLimitException:Exception
+    public class CapacityLimitException : Exception
     {
-        public CapacityLimitException() : base()
-        {
-
-        }
-
-        public CapacityLimitException(string message) : base(message)
-        {
-
-        }
+        public CapacityLimitException(string message) : base(message) { }
     }
+
 }

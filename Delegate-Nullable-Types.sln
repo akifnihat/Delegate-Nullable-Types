@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate-Nullable-Types", "Delegate-Nullable-Types\Delegate-Nullable-Types.csproj", "{979A894F-E941-4F94-9011-738F235AE6C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegate-Nullable-Types", "Delegate-Nullable-Types\Delegate-Nullable-Types.csproj", "{979A894F-E941-4F94-9011-738F235AE6C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{F58CFF0C-A989-49D5-81AD-D027DA4E2F8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils", "Utils\Utils.csproj", "{F58CFF0C-A989-49D5-81AD-D027DA4E2F8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F95EEE07-480D-4467-976E-C1374D5AA8F5}
 	EndGlobalSection
 EndGlobal
